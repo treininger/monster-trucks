@@ -8,7 +8,8 @@ body {
 h1 {
     font-family: 'Faster One', cursive;
     font-size: 500%;
-    color: goldenrod;
+    color: orangered;
+    text-shadow: 5px 5px 5px #000;
 }
 
 h2 {

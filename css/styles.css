@@ -1,0 +1,18 @@
+/*backgrounds*/
+
+body {
+    background: url(../img/carbon_fibre.png);
+}
+
+/*fonts*/
+h1 {
+    font-family: 'Faster One', cursive;
+    font-size: 500%;
+    color: goldenrod;
+}
+
+h2 {
+    font-family: 'Dhurjati', sans-serif;
+    color: white;
+    font-size: 300%;
+}

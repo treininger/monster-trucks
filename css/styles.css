@@ -4,16 +4,51 @@ body {
     background: url(../img/carbon_fibre.png);
 }
 
+/*nav*/
+
+nav {
+display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 200%;
+    font-family: 'PT Mono', ;
+}
+
+
+a:link , a:visited , a:focus , a:active , a:hover {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+
+
 /*fonts*/
 h1 {
     font-family: 'Faster One', cursive;
-    font-size: 500%;
+    font-size: 750%;
     color: orangered;
     text-shadow: 5px 5px 5px #000;
 }
 
 h2 {
-    font-family: 'Dhurjati', sans-serif;
-    color: white;
+    font-family: 'PT Mono', ;
+    font-weight:800;
+    font-style:italic;
+    color: gainsboro;
     font-size: 300%;
+    text-transform: uppercase;
+}
+
+
+p {
+   font-family: 'PT Mono', ;
+    color: white;
+}
+
+
+/*Images*/
+img {
+width: 50%;
 }

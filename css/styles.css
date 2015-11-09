@@ -15,6 +15,7 @@ li {
     font-size: 400%;
     font-family: 'PT Mono';
     margin-right: 30px;
+    text-transform: lowercase;
 }
 
 
@@ -23,6 +24,10 @@ a:link , a:visited , a:focus , a:active , a:hover {
     color: gainsboro;
 }
 
+a:active {
+    text-decoration: none;
+    color: orangered;
+}
 
 
 /*fonts*/
@@ -33,22 +38,28 @@ a:link , a:visited , a:focus , a:active , a:hover {
     text-shadow: -40px 6px 5px #000;
     display:block;
     text-align: center;
+    margin-top: auto;
     margin-bottom: -200px;
 }
 
 .trucks {
-    font-family: 'Faster One', cursive;
+    font-family: 'Open Sans';
     font-size: 1500%;
-    color: orangered;
+    color: gainsboro;
+    font-style:italic;
+    font-weight: 800;
     text-shadow: -40px 6px 5px #000;
     display:block;
-    text-align: center
+    text-align: center;
+        text-transform: uppercase;
+        
+ 
 }
 
 
 
 h2 {
-    font-family: 'PT Mono', ;
+    font-family: 'Open Sans', ;
     font-weight:800;
     font-style:italic;
     color: gainsboro;
@@ -61,6 +72,7 @@ p,
 blockquote {
    font-family: 'PT Mono', ;
     color: gainsboro;
+    text-align: center;
 }
 
 
@@ -75,5 +87,5 @@ margin-bottom: 100px;
 
 .six {
     width: 100%;
-    box-shadow: -20px 10px 40px;
+    box-shadow: -20px 15px 40px;
 }

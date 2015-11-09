@@ -12,8 +12,9 @@ display: inline-block;
 
 li {
     display: inline-block;
-    font-size: 200%;
-    font-family: 'PT Mono', ;
+    font-size: 400%;
+    font-family: 'PT Mono';
+    margin-right: 30px;
 }
 
 
@@ -25,12 +26,26 @@ a:link , a:visited , a:focus , a:active , a:hover {
 
 
 /*fonts*/
-h1 {
+.monster {
     font-family: 'Faster One', cursive;
-    font-size: 750%;
+    font-size: 2170%;
     color: orangered;
-    text-shadow: 5px 5px 5px #000;
+    text-shadow: -40px 6px 5px #000;
+    display:block;
+    text-align: center;
+    margin-bottom: -200px;
 }
+
+.trucks {
+    font-family: 'Faster One', cursive;
+    font-size: 1500%;
+    color: orangered;
+    text-shadow: -40px 6px 5px #000;
+    display:block;
+    text-align: center
+}
+
+
 
 h2 {
     font-family: 'PT Mono', ;
@@ -42,13 +57,23 @@ h2 {
 }
 
 
-p {
+p,
+blockquote {
    font-family: 'PT Mono', ;
-    color: white;
+    color: gainsboro;
 }
 
 
 /*Images*/
-img {
-width: 50%;
+
+.first {
+width: 180%;
+box-shadow: -50px 10px 50px;
+margin-bottom: 100px;
+    margin-left: -490px;
+}
+
+.six {
+    width: 100%;
+    box-shadow: -20px 10px 40px;
 }
